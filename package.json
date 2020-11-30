@@ -6,7 +6,8 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "pm2": "nuxt build && pm2 start npm --name web1.0.2 -- run start"
   },
   "config":{
     "nuxt":{
