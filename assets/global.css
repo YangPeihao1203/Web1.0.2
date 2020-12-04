@@ -1,0 +1,51 @@
+.fix-margin .v-input__append-outer,
+.fix-margin .v-input__prepend-outer {
+  margin: 0 !important;
+}
+
+.v-input__prepend-inner {
+  margin-right: 8px !important;
+}
+
+.v-list-item__action {
+  margin: 0 24px 0 8px !important;
+}
+
+.v-slide-group__next,
+.v-slide-group__prev {
+  width: 32px;
+  min-width: 32px;
+}
+
+.v-list--two-line .v-list-item .v-list-item__icon,
+.v-list-item--two-line .v-list-item__icon {
+  margin: 24px 24px 24px 12px !important;
+}
+
+.v-snack__wrapper {
+  margin-bottom: 24px !important;
+}
+
+.v-application p {
+  line-height: 2rem;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.half-width {
+  width: 50%;
+}
+
+.v-snack__wrapper {
+  width: 100%;
+  z-index: 10000;
+  max-width: 420px !important;
+  margin: 0 !important;
+  /* background-color: #ffffff !important; */
+}
+
+html {
+  overflow-y: overlay !important;
+}

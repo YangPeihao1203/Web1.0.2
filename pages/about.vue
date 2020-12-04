@@ -17,6 +17,23 @@
     >
     <v-drawer v-if="drawer"></v-drawer>
     </v-navigation-drawer>
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
   </div>
 
 
