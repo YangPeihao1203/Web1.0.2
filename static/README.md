@@ -1,5 +1,5 @@
 # STATIC
-
+# 这个文件就是让我们存放静态资源的
 **This directory is not required, you can delete it if you don't want to use it.**
 
 This directory contains your static files.
