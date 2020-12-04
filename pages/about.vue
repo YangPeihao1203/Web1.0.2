@@ -8,6 +8,16 @@
        <v-toolbar-title class="text-h6">关于</v-toolbar-title>
         <v-spacer></v-spacer>
       </v-app-bar>
+      <v-navigation-drawer
+    v-model="drawer"
+    absolute
+    light
+    temporary
+    style="heigh: 100vh; z-index: 2000"
+    >
+    <v-drawer v-if="drawer"></v-drawer>
+    </v-navigation-drawer>
   </div>
-  
+
+
 </template>
