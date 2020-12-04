@@ -1,0 +1,19 @@
+module.exports={
+    root:true,
+    env:{
+        browser:true,
+        node:true,
+    },
+    parserOption:{
+        paser:'babel-eslint',
+    },
+    extends:[
+        '@nuxt.js',
+        'prettier',
+        'prettier/vue',
+        'plugin:prettier/recomended',
+        'plugin:nuxt/recommend',
+    ],
+    plugins:['prettier'],
+    rules:{}
+}

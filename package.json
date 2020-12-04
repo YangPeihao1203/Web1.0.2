@@ -1,23 +1,36 @@
 {
-  "name": "Web1.0.2",
+  "name": "chatcat-web",
+  "description": "ChatCat 是一个简单的聊天室。",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
+    "dev": "nuxt -H 0.0.0.0",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "pm2": "nuxt build && pm2 start npm --name web1.0.2 -- run start"
-  },
-  "config":{
-    "nuxt":{
-      "host":"0.0.0.0",
-      "port":"8011"
-    }
+    "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lint": "yarn lint:js"
   },
   "dependencies": {
-    "core-js": "^3.6.5",
-    "nuxt": "^2.14.6"
+    "@nuxtjs/axios": "^5.12.0",
+    "@nuxtjs/proxy": "^2.0.1",
+    "ali-oss": "^6.10.0",
+    "cookie-universal-nuxt": "^2.1.4",
+    "dayjs": "^1.8.36",
+    "nuxt": "^2.14.0",
+    "nuxt-vuex-localstorage": "^1.2.7",
+    "qrcode.vue": "^1.7.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^3.1.0",
+    "@nuxtjs/eslint-module": "^2.0.0",
+    "@nuxtjs/pwa": "^3.0.2",
+    "@nuxtjs/vuetify": "^1.11.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.5.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-nuxt": "^1.0.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5"
+  }
 }

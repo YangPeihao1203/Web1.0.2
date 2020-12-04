@@ -10,11 +10,10 @@ $ yarn install
 $ yarn dev
 
 # build for production and launch server
-$ yarn build
-$ yarn start
+这个是我的利用之前的WEB项目的复制
+$ yarn 
+$ yarn dev
 
-# generate static project
-$ yarn generate
-```
+
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
